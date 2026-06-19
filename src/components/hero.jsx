@@ -2,7 +2,7 @@ import heroImage from "../assets/hero.png";
 
 function Hero() {
   return (
-    <section className="h-screen bg-blue-600 flex items-center justify-center text-white px-6">
+    <section id="home" className="h-screen bg-blue-600 flex items-center justify-center text-white px-6">
 
       <div className="max-w-6xl w-full flex flex-col lg:flex-row items-center gap-10">
         <div className="text-center lg:text-left lg:w-1/2">
@@ -15,9 +15,9 @@ function Hero() {
             Amazing Packages At Affordable Prices
           </p>
 
-          <button className="bg-orange-500 px-6 py-3 rounded mt-6">
+          <a href="#packages" className="inline-block bg-orange-500 px-6 py-3 rounded mt-6">
             Explore Packages
-          </button>
+          </a>
         </div>
 
         <div className="lg:w-1/2 flex justify-center">

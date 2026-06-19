@@ -1,6 +1,6 @@
 function Reviews() {
   return (
-    <section className="py-16 px-10">
+    <section id="reviews" className="py-16 px-10">
 
       <h2 className="text-4xl font-bold text-center mb-10">
         Customer Reviews

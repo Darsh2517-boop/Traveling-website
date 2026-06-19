@@ -25,7 +25,7 @@ function PackageCard() {
   ];
 
   return (
-    <section className="py-16 px-10">
+    <section id="packages" className="py-16 px-10">
 
       <h2 className="text-4xl font-bold text-center mb-10">
         Tour Packages
